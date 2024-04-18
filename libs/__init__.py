@@ -12,7 +12,7 @@ coloredlogs.install(level='DEBUG',
                         'levelname': {'color': 'white', 'bold': True},
                         'name': {'color': 'blue'}})
 
-log.debug("Initalizing the Tammy application ..")
+log.debug("Initalizing the application ..")
 
 # Load environment variables
 load_dotenv()
