@@ -8,5 +8,6 @@ dependencies:
   - pip:
       - black==24.4.2
       - coloredlogs==15.0.1
+      - mathplotlib==3.8.4
       - pandas==2.2.2
       - python-dotenv==1.0.1
