@@ -1,4 +1,4 @@
-name: template
+name: programacion-cientifica
 channels:
   - conda-forge
   - defaults
@@ -6,6 +6,7 @@ dependencies:
   - pip=24.0
   - python=3.12
   - pip:
+      - black==24.4.2
       - coloredlogs==15.0.1
+      - pandas==2.2.2
       - python-dotenv==1.0.1
-      - pycodestyle==2.11.1
