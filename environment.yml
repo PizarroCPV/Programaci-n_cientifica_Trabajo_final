@@ -1,4 +1,4 @@
-name: programacion-cientifica
+name: Taller_Final
 channels:
   - conda-forge
   - defaults
@@ -6,8 +6,18 @@ dependencies:
   - pip=24.0
   - python=3.12
   - pip:
-      - black==24.4.2
       - coloredlogs==15.0.1
-      - mathplotlib==3.8.4
-      - pandas==2.2.2
       - python-dotenv==1.0.1
+      - pycodestyle==2.11.1
+      - pandas==2.2.2
+      - numpy==1.26
+      - beautifulsoup4==4.12
+      - matplotlib==3.8.4
+      - seaborn==0.13.2
+      - python-dotenv==1.0.1
+      - black==24.4.2
+      - scikit-learn==1.4.2
+      - PrettyTable==3.10.0
+      - liac-arff==2.5.0
+      - missingno==0.5.2
+      - -xlrd==2.0.1
